@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS `#__swa_member` (
   `econtact` VARCHAR(255)  NOT NULL ,
   `enumber` VARCHAR(255)  NOT NULL ,
   `dietary` VARCHAR(30) NOT NULL DEFAULT 'None',
+  `medical` TEXT DEFAULT NULL,
   `tel` VARCHAR(15) NOT NULL ,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `user_id_UNIQUE` (`user_id` ASC),

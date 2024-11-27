@@ -141,6 +141,14 @@
 	 <option value="Kosher">Kosher</option>
          <option value="Lactose Intolerant">Lactose Intolerant</option>
       </field>
+	  
+	  <field name="medical"
+              type="text"
+              size="30"
+              class="inputbox"
+              label="Medical/Allergy Info"
+              required="true"
+              filter="safehtml"/>
 
    </fieldset>
 

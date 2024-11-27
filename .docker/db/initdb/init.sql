@@ -1895,6 +1895,7 @@ CREATE TABLE `swana_swa_member` (
   `econtact` varchar(255) NOT NULL,
   `enumber` varchar(255) NOT NULL,
   `dietary` varchar(30) NOT NULL DEFAULT 'None',
+  `medical` TEXT DEFAULT NULL,
   `tel` varchar(15) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_id_UNIQUE` (`user_id`),
